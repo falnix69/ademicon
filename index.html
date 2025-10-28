@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cristiano S Falcão - Consultor de Investimento ADEMICON</title>
+    
+    <!-- Open Graph Tags para pré-visualização no WhatsApp/Redes Sociais -->
+    <meta property="og:title" content="Cristiano S Falcão - Consultor de Investimento ADEMICON">
+    <meta property="og:description" content="Realize Seus Sonhos com Consórcios ADEMICON: Imóvel, Veículo ou Serviços sem juros. Soluções de investimento pensadas para você.">
+    <meta property="og:image" content="background.png">
+    <meta property="og:url" content="https://3000-ihvpu43men9lnjg39xts6-4d98830b.manusvm.computer">
+    <meta property="og:type" content="website">
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #FFFFFF;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background-color: #0d1117;
+            background-image: linear-gradient(rgba(13, 17, 23, 0.85), rgba(13, 17, 23, 0.85)), url('background.png');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            text-align: center;
+        }
+
+        .card {
+            background-color: rgba(0, 0, 0, 0.75);
+            padding: 45px 35px;
+            border-radius: 18px;
+            box-shadow: 0 15px 40px rgba(0, 0, 0, 0.6), 0 0 30px rgba(255, 153, 0, 0.2);
+            max-width: 400px;
+            width: 90%;
+            border: 2.5px solid #ff9900;
+            backdrop-filter: blur(8px);
+            animation: fadeIn 0.8s ease-out;
+        }
+
+        @keyframes fadeIn {
+            from { 
+                opacity: 0; 
+                transform: translateY(30px); 
+            }
+            to { 
+                opacity: 1; 
+                transform: translateY(0); 
+            }
+        }
+
+        .logo {
+            width: 110px;
+            height: 110px;
+            margin-bottom: 25px;
+            border-radius: 50%;
+            border: 4px solid #ff9900;
+            object-fit: cover;
+            box-shadow: 0 0 20px rgba(255, 153, 0, 0.7);
+            background-color: rgba(255, 255, 255, 0.1);
+        }
+
+        h1 {
+            color: #ff9900;
+            font-size: 1.9em;
+            margin-bottom: 8px;
+            font-weight: 700;
+            letter-spacing: 0.5px;
+        }
+
+        h2 {
+            color: #FFFFFF;
+            font-size: 1.15em;
+            margin-top: 0;
+            margin-bottom: 10px;
+            font-weight: 600;
+        }
+
+        .subtitle {
+            color: #CCCCCC;
+            font-size: 0.95em;
+            margin-bottom: 30px;
+            font-weight: 400;
+        }
+
+        .contact-info {
+            background-color: rgba(255, 153, 0, 0.1);
+            border-left: 3px solid #ff9900;
+            padding: 12px 15px;
+            margin-bottom: 25px;
+            border-radius: 5px;
+            font-size: 0.9em;
+        }
+
+        .contact-info p {
+            margin: 6px 0;
+            color: #DDDDDD;
+        }
+
+        .contact-info strong {
+            color: #ff9900;
+        }
+
+        .link-button {
+            display: block;
+            background-color: #ff9900;
+            color: #000000;
+            padding: 15px 20px;
+            margin: 12px 0;
+            border-radius: 10px;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 0.95em;
+            transition: background-color 0.3s, transform 0.2s, box-shadow 0.3s;
+            box-shadow: 0 6px 15px rgba(255, 153, 0, 0.4);
+            position: relative;
+            overflow: hidden;
+            border: none;
+            cursor: pointer;
+        }
+
+        .link-button:before {
+            content: '';
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            width: 300%;
+            height: 300%;
+            background-color: rgba(255, 255, 255, 0.15);
+            transition: all 0.6s ease-out;
+            border-radius: 50%;
+            transform: translate(-50%, -50%) scale(0);
+        }
+
+        .link-button:hover:before {
+            transform: translate(-50%, -50%) scale(1);
+            opacity: 0;
+        }
+
+        .link-button:hover {
+            background-color: #e68a00;
+            transform: translateY(-3px);
+            box-shadow: 0 8px 20px rgba(255, 153, 0, 0.6);
+        }
+
+        .link-button.whatsapp {
+            background-color: #25D366;
+            color: #FFFFFF;
+            box-shadow: 0 6px 15px rgba(37, 211, 102, 0.4);
+            font-weight: 700;
+        }
+
+        .link-button.whatsapp:hover {
+            background-color: #1DA851;
+            box-shadow: 0 8px 20px rgba(37, 211, 102, 0.6);
+        }
+
+        .divider {
+            height: 1px;
+            background: linear-gradient(to right, transparent, #ff9900, transparent);
+            margin: 20px 0;
+        }
+
+        .info-text {
+            color: #999999;
+            font-size: 0.85em;
+            margin-top: 25px;
+            font-weight: 300;
+            line-height: 1.5;
+        }
+
+        .badge {
+            display: inline-block;
+            background-color: rgba(255, 153, 0, 0.2);
+            border: 1px solid #ff9900;
+            color: #ff9900;
+            padding: 5px 12px;
+            border-radius: 20px;
+            font-size: 0.8em;
+            font-weight: 600;
+            margin-top: 15px;
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <img src="logo.png" alt="Logo Falnix Investimento" class="logo">
+        
+        <h1>Cristiano S Falcão</h1>
+        <h2>Consultor de Investimento</h2>
+        <p class="subtitle">ADEMICON</p>
+
+        <div class="contact-info">
+            <p><strong>WhatsApp:</strong> (41) 99657-1137</p>
+            <p><strong>Telefone:</strong> (41) 99192-2639</p>
+        </div>
+        
+        <!-- Botão Principal: WhatsApp -->
+        <a href="https://api.whatsapp.com/send?phone=5541996571137&text=Ol%C3%A1%20Cristiano%2C%20gostaria%20de%20uma%20simula%C3%A7%C3%A3o%20de%20cons%C3%B3rcio%20ADEMICON." class="link-button whatsapp" target="_blank">
+            💬 Fale Comigo no WhatsApp
+        </a>
+        
+        <div class="divider"></div>
+
+        <!-- Botão 2: Simulação de Consórcio (Link para o site original) -->
+        <a href="https://falnix-lp-3vj32rht.manus.space/" class="link-button" target="_blank">
+            📊 Solicitar Simulação
+        </a>
+
+        <!-- Botão 3: Ganhe Comissões com Indicações -->
+        <a href="https://falnix-lp-3vj32rht.manus.space/#indicacoes" class="link-button" target="_blank">
+            🤝 Ganhe Comissões com Indicações
+        </a>
+        
+        <!-- Botão 4: Materiais Gratuitos (PDFs) -->
+        <a href="https://falnix-lp-3vj32rht.manus.space/#materiais" class="link-button" target="_blank">
+            📚 Materiais Gratuitos (PDFs)
+        </a>
+
+        <p class="info-text">
+            Imóvel, Veículo ou Serviços sem juros. Soluções de investimento pensadas para você.
+        </p>
+
+        <span class="badge">✓ ADEMICON Certificado</span>
+    </div>
+</body>
+</html>
